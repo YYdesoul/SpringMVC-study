@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springmvc-05-json" />
         <module name="springmvc-04-controller" />
+        <module name="springmvc-06-ajax02" />
         <module name="springmvc-01-servlet" />
         <module name="springmvc-02-hellomvc" />
         <module name="springmvc-03-annotation" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-03-annotation" target="8" />
+      <module name="springmvc-06-ajax" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
