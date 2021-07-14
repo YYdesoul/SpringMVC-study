@@ -6,6 +6,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ForwardRedirectController {
 
+    /**
+     *
+     * @return
+     */
+
     @GetMapping("/forward")
     public String forwardTest() {
         return "hello";
